@@ -3,3 +3,10 @@ body{
     margin:0px;
     padding:0px;
 }
+
+.banner-img{
+    position:relative;
+}
+.header-title{
+    position:absolute;
+}
