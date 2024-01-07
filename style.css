@@ -47,8 +47,8 @@ body {
 
 /* ===offer section style===== */
 
-.offer-section{
-    margin-bottom: 100px;
+.offer-section {
+  margin-bottom: 100px;
 }
 
 .offer-container {
@@ -78,28 +78,58 @@ body {
 }
 
 /* ====mid night party style======== */
-.mid-night-party{
-    margin-bottom: 100px;
+.mid-night-party {
+  margin-bottom: 100px;
 }
-.mid-night-container{
-    width: 1300px;
-    height: 600px;
-    margin: 50px auto 100px;
-    border-radius: 15px;
-    background-image: url("images/Vectorrr.png");
-    background-size: cover;
-    background-repeat: no-repeat;
+.mid-night-container {
+  width: 1300px;
+  height: 600px;
+  margin: 50px auto 100px;
+  border-radius: 15px;
+  background-image: url("images/Vectorrr.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.mid-night-title {
+  width: 100%;
+  height: 100%;
+  color: white;
+
+  border-radius: 15px;
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
+}
+.mid-night-header {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 88px; /* 137.5% */
+  letter-spacing: 7.04px;
+  padding: 110px 500px 0px 125px;
+}
+.mid-night-description {
+  /* padding:px 450px 25px 125px; */
+  padding-left: 125px;
+  margin-top: -40px;
+  color: whitesmoke;
+  font-family: Inter;
+  font-size: 16px;
+  padding-right: 400px;
+}
+.btn-primary {
+  display: inline-flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: #f00;
+  padding-left:125px;
+}
+.mid-night-header > button {
 
 }
-.mid-night-title{
-    width: 100%;
-    height: 100%;
-    color: white;
-    
-    border-radius: 15px;
-    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
-}
-.mid-night-header{
- padding-top:125px;
- padding-left:125px;
+.mid-night-header > button{
+    padding-left:125px;
 }
