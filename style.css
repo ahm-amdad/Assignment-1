@@ -140,13 +140,13 @@ body {
     
 /* ===== portfolio section style========== */
 .portfolio-section{
-  margin-bottom: 100px;
+  margin-bottom: 500px;
 }
 .portfolio-container{
   width: 1300px;
   height: 600px;
   margin: 0px auto ;
-  background: #f0efef;
+  background: #fff;
 }
 .small-description{
   color: #F00;
@@ -163,7 +163,7 @@ body {
   font-weight: 900;
   line-height: normal;
   text-transform: capitalize;
-  margin-top:-6px;
+  margin-top:-3px;
 
 }
 .medium-description{
@@ -173,6 +173,19 @@ font-size: 15px;
 font-style: normal;
 font-weight: 400;
 width:700px;
-margin-top:-22px;
+margin-top:-16px;
+margin-bottom: 45px;
 
+}
+
+/*=== portfolio section style====== */
+
+.porfolio-gallary-1{
+  display: flex;
+  gap:20px;
+}
+.portfolio-gallary-2{
+  display: flex;
+  gap:20px;
+  margin-top: 20px;
 }
