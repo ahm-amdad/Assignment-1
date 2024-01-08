@@ -78,6 +78,7 @@ body {
 }
 
 /* ====mid night party style======== */
+
 .mid-night-party {
   margin-bottom: 140px;
 }
@@ -109,7 +110,7 @@ body {
   padding: 110px 500px 0px 125px;
 }
 .mid-night-description {
-  /* padding:px 450px 25px 125px; */
+  
   padding-left: 125px;
   margin-top: -40px;
   color: whitesmoke;
@@ -136,6 +137,7 @@ body {
 }
 
 /* ===== portfolio section style========== */
+
 .portfolio-section {
   margin-bottom: px;
 }
@@ -171,18 +173,21 @@ body {
   margin-bottom: 45px;
 }
 
-/*=== portfolio section style====== */
+/*=== portfolio image style====== */
 
 .porfolio-gallary-1 {
   display: flex;
   gap: 20px;
+  transition: all 300ms ease-in-out;
 }
 .portfolio-gallary-2 {
   display: flex;
   gap: 20px;
   margin-top: 20px;
 }
-
+.portfolio-img:hover{
+  box-shadow: 0px 10px 35px rgb(7, 212, 92);
+}
 /* Subscribe Newsletter style */
 
 .newslatter {
@@ -234,6 +239,7 @@ body {
   color: #fff;
   padding: 20px 58px;
   font-size: 20px;
+  border:none;
 }
 
 /* ======footer style====== */
@@ -246,8 +252,8 @@ footer {
   width: 1300px;
   display: flex;
   justify-content: space-between;
-  padding-bottom:58px;
-  padding-top:90px;
+  padding-bottom:40px;
+  padding-top:60px;
 }
 .left{
   width:280px;
@@ -279,7 +285,7 @@ footer {
 .icon{
   display: flex;
   gap:20px;
-  padding:50px 0px;
+  padding:30px 0px;
   justify-content: center;
 }
 .icon-img{
@@ -291,18 +297,20 @@ footer {
   margin:0 auto;
   display:flex;
   justify-content: space-between;
+  padding:40px 0px;
 }
 
 .all-right-text p {
   color: #FFF;
   font-family: Inter;
-  font-size: 18px;
+  font-size: 15px;
   
-  font-weight: 400;
 
 }
-.unsubscribe-text{
-  
+.unsubscribe-text p{
+  color: #FFF;
+  font-family: Inter;
+  font-size: 15px;
 }
 hr{
   width:1300px;
