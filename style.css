@@ -79,7 +79,7 @@ body {
 
 /* ====mid night party style======== */
 .mid-night-party {
-  margin-bottom: 100px;
+  margin-bottom: 140px;
 }
 .mid-night-container {
   width: 1300px;
@@ -138,4 +138,41 @@ body {
 }
   
     
+/* ===== portfolio section style========== */
+.portfolio-section{
+  margin-bottom: 100px;
+}
+.portfolio-container{
+  width: 1300px;
+  height: 600px;
+  margin: 0px auto ;
+  background: #f0efef;
+}
+.small-description{
+  color: #F00;
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 500;
+
+}
+.portfolio-heading{
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-top:-6px;
+
+}
+.medium-description{
+  color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+width:700px;
+margin-top:-22px;
+
 }
