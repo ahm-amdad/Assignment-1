@@ -240,10 +240,75 @@ body {
   margin-bottom: -5px;
 }
 .comming-soon-right p {
-  color: rgba(7, 2, 17, 0.60);
-font-family: Inter;
-font-size: 14px;
-margin-bottom: 15px;
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+/* holiday styles */
+
+.holiday {
+  margin-bottom: 100px;
+}
+.holiyday-container {
+  width: 1300px;
+  height: 300px;
+  margin: 0 auto;
+  background: rgb(247, 255, 252);
+  display: flex;
+}
+.holiday-text {
+  width: 650px;
+  margin: 0 auto;
+
+  text-align: center;
+}
+.holiday-text h6 {
+  color: #070211;
+  font-family: Inter;
+  font-size: 20px;
+  margin-bottom: -20px;
+}
+.holiday-text h2 {
+  color: #f00;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+ 
+  
+}
+.holiday-text p {
+  color: #070211;
+  font-family: Inter;
+  font-size: 15px;
+}
+.holiday-text{
+  margin-bottom: 100px;
+}
+
+.holiday-img{
+   width: 1300px;
+   height:400px;
+  
+   margin: 0 auto;
+   display:flex;
+}
+
+.holiday-img img{
+  width: 400px;px;
+  height:400px;
+}
+.red-bg{
+  width:1300px;
+  height:300px;
+  margin: 0px auto;
+}
+.red-bg img{
+  width:100%;
+  height:130px;
+  
 }
 
 /* ===== portfolio section style========== */
