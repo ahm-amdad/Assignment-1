@@ -159,85 +159,92 @@ body {
   margin: 0px auto;
   text-align: center;
 }
-.place >p {
-
+.place > p {
   color: #070211;
   font-family: Inter;
   font-size: 22px;
   font-style: normal;
   font-weight: 600;
-  
+
   text-transform: capitalize;
 }
-.date > p  {
-
+.date > p {
   color: #070211;
   font-family: Inter;
   font-size: 22px;
   font-style: normal;
   font-weight: 600;
-  
+
   text-transform: capitalize;
 }
-.time > p  {
-
+.time > p {
   color: #070211;
   font-family: Inter;
   font-size: 22px;
   font-style: normal;
   font-weight: 600;
-  
+
   text-transform: capitalize;
 }
 
 .color-text {
-  color: #f00;  
+  color: #f00;
 }
 
 /* comming-soon */
-.comming-soon{
+.comming-soon {
   margin-bottom: 100px;
 }
-.comming-soon-container{
+.comming-soon-container {
   width: 1300px;
   height: 400px;
   margin: 0px auto;
   background: #ffffff;
 }
-.comming-soon-container{
+.comming-soon-container {
   display: flex;
-  align-items:  center;
+  align-items: center;
   justify-content: space-around;
 }
 .comming-soon-center img {
   border-radius: 400px;
- border: 15px solid #F00;
- padding:30px;
- 
+  border: 15px solid #f00;
+  padding: 30px;
 }
-.comming-soon-left{
-  width:325px;
+.comming-soon-left {
+  width: 325px;
 }
-.comming-soon-right{
-  width:325px;
+.comming-soon-right {
+  width: 325px;
 }
-.comming-soon-left  .sml-head{
+.comming-soon-left .sml-head {
   font-size: 18px;
-  color:red;
+  color: red;
   margin-bottom: -20px;
 }
-.comming-soon-left h3{
+.comming-soon-left h3 {
   color: #070211;
-  font-size:35px;
-  text-transform: capitalize;margin-bottom: -4px;
-
+  font-size: 35px;
+  text-transform: capitalize;
+  margin-bottom: -4px;
 }
- .comming-soon-small-description{
-  color: rgba(7, 2, 17, 0.60);
+.comming-soon-small-description {
+  color: rgba(7, 2, 17, 0.6);
   font-size: 14px;
 }
 
-
+.comming-soon-right h3 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 34px;
+  margin-bottom: -5px;
+}
+.comming-soon-right p {
+  color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 14px;
+margin-bottom: 15px;
+}
 
 /* ===== portfolio section style========== */
 
