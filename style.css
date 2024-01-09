@@ -196,11 +196,48 @@ body {
 
 /* comming-soon */
 .comming-soon{
+  margin-bottom: 100px;
+}
+.comming-soon-container{
   width: 1300px;
   height: 400px;
   margin: 0px auto;
-  background: #fffeee;
+  background: #ffffff;
 }
+.comming-soon-container{
+  display: flex;
+  align-items:  center;
+  justify-content: space-around;
+}
+.comming-soon-center img {
+  border-radius: 400px;
+ border: 15px solid #F00;
+ padding:30px;
+ 
+}
+.comming-soon-left{
+  width:325px;
+}
+.comming-soon-right{
+  width:325px;
+}
+.comming-soon-left  .sml-head{
+  font-size: 18px;
+  color:red;
+  margin-bottom: -20px;
+}
+.comming-soon-left h3{
+  color: #070211;
+  font-size:35px;
+  text-transform: capitalize;margin-bottom: -4px;
+
+}
+ .comming-soon-small-description{
+  color: rgba(7, 2, 17, 0.60);
+  font-size: 14px;
+}
+
+
 
 /* ===== portfolio section style========== */
 
